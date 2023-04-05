@@ -1,0 +1,45 @@
+/*header*/
+.main-header {
+  min-height: 100px;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 50px;
+  margin: 0;
+  flex: 1;
+}
+
+.navigations {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigations p {
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.login-button {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 100px;
+  font-size: 30px;
+}
+
+/*header end*/
