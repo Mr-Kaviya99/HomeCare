@@ -10,24 +10,53 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
-<div class="main-outer container">
-  <div class="customer-header">
-    <h1 class="logo"><a href="index.html">homecare</a></h1>
-  </div>
+<div class="main-outer">
+  <div class="container">
+    <div class="customer-header">
+      <h1 class="logo"><a href="index.html">homecare</a></h1>
+    </div>
 
-  <div class="form-outer">
-    <div class="form-inner">
-      <div>
+    <div class="form-outer">
+      <div class="form-inner">
         <h2 class="title-text">Signup</h2>
         <p class="message">Get started absolutely free</p>
         <form action="" class="form">
-          <label for="email" class="label">Email</label>
-          <input id="email" class="input" type="email">
-          <label for="password" class="label">Password</label>
-          <input id="password" class="input" type="password">
-
+          <div class="signup-form row">
+            <div class="col-12 col-md-6">
+              <label for="firstName" class="label">First Name</label>
+              <input id="firstName" class="input" type="text">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="lastName" class="label">Last Name</label>
+              <input id="lastName" class="input" type="text">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="email" class="label">Email</label>
+              <input id="email" class="input" type="email">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="phone" class="label">Phone</label>
+              <input id="phone" class="input" type="text">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="password" class="label">Password</label>
+              <input id="password" class="input" type="password">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="confirmPassword" class="label">Confirm Password</label>
+              <input id="confirmPassword" class="input" type="password">
+            </div>
+            <div class="col-12">
+              <div class="check-box-outer">
+                <input id="checkBox" class="check-box" type="checkbox">
+                <label for="checkBox"> Creating an account means you're okay with our <a href="">Terms of Service</a>,
+                  <a
+                    href="">Privacy Policy</a>, and our default <a href="">notification settings</a>.</label>
+              </div>
+            </div>
+          </div>
           <div class="login-text">
-            <a href="customer-login.html" class="login">Already have an account</a>
+            <div>Already a member? <a href="customer-login.html" class="login">Sign In</a></div>
           </div>
           <div class="signup-button">
             <a href="" class="signup">Sign Up</a>
