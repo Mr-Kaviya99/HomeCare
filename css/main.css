@@ -1,24 +1,25 @@
 /*header*/
 .main-header {
   min-height: 100px;
-  padding: 0 100px;
   display: flex;
   align-items: center;
 }
 
 .logo {
   font-weight: 800;
-  text-transform: capitalize;
-  font-size: 50px;
-  margin: 0;
+  text-transform: uppercase!important;
+  font-size: 40px;
+  margin: 0 0 0 20px;
   flex: 1;
 }
 
 .navigations {
-  flex: 1;
+  flex: 2;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+  padding: 0 30px;
+  height: 50px;
 }
 
 .navigations p {
@@ -27,19 +28,87 @@
   margin: 0;
 }
 
+.navigations p:hover {
+  color: darkseagreen;
+}
+
 .login-button {
   flex: 1;
   display: flex;
   justify-content: right;
+  height: 50px;
 }
 
 .button {
-  padding: 10px 30px;
+  padding: 5px 35px 0 35px;
   background-color: black;
   color: white;
   text-decoration: none;
   border-radius: 100px;
-  font-size: 30px;
+  font-size: 24px;
+}
+
+.button:hover {
+  color: white;
+  cursor: pointer;
 }
 
 /*header end*/
+
+/*side nav*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.left-nav-bar{
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .left-nav-bar{
+    display: flex;
+  }
+  .navigations {
+    display: none;
+  }
+  .login-button{
+    display: none;
+  }
+}
+/*nav-close*/

@@ -22,11 +22,11 @@
   width: 100%;
   height: auto;
 }
-
 .logo a:hover {
   color: black;
   cursor: pointer;
 }
+
 /*form*/
 
 .form-outer {
@@ -71,32 +71,15 @@
   height: 24px;
 }
 
-.login-button {
-  display: flex;
-  justify-content: center;
-}
-
-.login {
+.login-text {
   margin-top: 75px;
-  padding: 5px;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  border-radius: 100px;
-  font-size: 20px;
-  text-align: center;
-  display: block;
-}
-.login:hover {
-  color: white;
-  cursor: pointer;
 }
 
 .signup-button {
   display: flex;
   justify-content: center;
 }
+
 .signup {
   margin-top: 20px;
   padding: 5px;
@@ -108,8 +91,16 @@
   font-size: 20px;
   text-align: center;
 }
+
 .signup:hover {
   color: white;
   cursor: pointer;
 }
 
+@media only screen and (max-width: 980px) {
+  /*.form-inner{*/
+  /*  margin-top: 100px;*/
+  /*  width: 100%;*/
+  /*  padding: 0 20px;*/
+  /*}*/
+}
