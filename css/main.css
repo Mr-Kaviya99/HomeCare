@@ -184,3 +184,22 @@
   height: 100%;
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 992px) {
+
+  .slider-right-img-outer {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .slider-header {
+    width: 100%;
+  }
+
+  .slider-description {
+    width: 100%;
+  }
+
+}
