@@ -499,7 +499,7 @@
 }
 
 .cards-list {
-  margin: 0;
+  margin-top: 50px;
   display: flex;
   padding-bottom: 30px;
   overflow-x: scroll;
