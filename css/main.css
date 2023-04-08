@@ -12,7 +12,7 @@
 .logo {
   font-weight: 800;
   text-transform: uppercase !important;
-  font-size: 40px;
+  font-size: 38px;
   margin: 0;
   flex: 1;
 }
@@ -582,3 +582,120 @@
   border-radius: 2px;
 }
 
+/*trade person get start*/
+
+.get-start-trade-person {
+  background: url("https://github.com/Mr-Kaviya99/HomeCare/blob/master/img/Last_Page.png?raw=true") no-repeat center;
+  background-size: cover;
+  padding-bottom: 20vh;
+}
+
+.get-start-trade-person-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.get-start-trade-person:hover .get-start-trade-person-topic {
+  -webkit-text-stroke: 3px rgba(143, 188, 143, 0.59);
+}
+
+.get-start-trade-person-topic {
+  margin-top: 190px;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  width: 600px;
+}
+
+.get-start-trade-person-button-outer {
+  margin-top: 70px;
+}
+
+.get-start-trade-person-button {
+  padding: 7px 35px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 100px;
+  font-size: 24px;
+}
+
+.get-start-trade-person-button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 625px) {
+  .get-start-trade-person-topic {
+    width: 100% !important;
+  }
+}
+
+/*footer*/
+
+.footer {
+  background-color: black;
+  min-height: 40vh;
+  padding: 20px 0;
+  color: white;
+}
+
+.footer-logo{
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.footer-desc{
+  margin-top: 20px;
+}
+
+.footer-ul-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-ul {
+  list-style: none;
+}
+
+.footer-li {
+  margin-bottom: 10px;
+}
+
+.subscribe {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.email-input {
+  margin-top: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.subscription-desc {
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer-ul-outer {
+    justify-content: right;
+  }
+}
+
+@media screen and (max-width: 575.5px) {
+  .footer-ul-outer {
+    justify-content: left;
+  }
+
+  .footer-ul {
+    padding: 0;
+  }
+}
